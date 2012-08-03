@@ -2,10 +2,10 @@
 ##
 ##        Mod title:  Ajax Quick Post
 ##
-##      Mod version:  2.1
-##  Works on FluxBB:  1.4.8, 1.4.7
-##     Release date:  2011-04-11
-##      Review date:  YYYY-MM-DD (Leave unedited)
+##      Mod version:  2.1.1
+##  Works on FluxBB:  1.5.0
+##     Release date:  2012-08-03
+##      Review date:  2012-08-03
 ##           Author:  Daris (daris91@gmail.com)
 ##
 ##      Description:  Allows quickly post a reply (using ajax)
@@ -220,7 +220,7 @@ function redirect($destination_url, $message)
 #---------[ 22. FIND ]---------------------------------------------
 #
 
-function message($message, $no_back_link = false)
+function message($message, $no_back_link = false, $http_status = null)
 {
 
 #
